@@ -12,7 +12,7 @@ class Config(object):
     API_ID = 62 # API_ID from my.telegram.org
 
     BOT_ID = 521 # BOT_ID
-    BOT_USERNAME = "Elf_Robot" # BOT_USERNAME
+    BOT_USERNAME = "irowriterobot" # BOT_USERNAME
 
     MONGO_DB_URL = "mongodb://username:password@localhost:27017/emi?directConnection=true&authSource=admin" # MongoDB URL from MongoDB Atlas
 
