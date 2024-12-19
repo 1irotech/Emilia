@@ -16,17 +16,17 @@ class Config(object):
 
     MONGO_DB_URL = "mongodb://username:password@localhost:27017/emi?directConnection=true&authSource=admin" # MongoDB URL from MongoDB Atlas
 
-    SUPPORT_CHAT = "SpiralTechDivision" # Support Chat Username
-    UPDATE_CHANNEL = "SpiralUpdates" # Update Channel Username
-    START_PIC = "https://pic-bstarstatic.akamaized.net/ugc/9e98b6c8872450f3e8b19e0d0aca02deff02981f.jpg@1200w_630h_1e_1c_1f.webp" # Start Image
+    SUPPORT_CHAT = "ironmanhindigming" # Support Chat Username
+    UPDATE_CHANNEL = "ironmanhindigaming11" # Update Channel Username
+    START_PIC = "https://iili.io/2wrEKlt.jpg" # Start Image
     DEV_USERS = [6040984893, 6461051572, 7107018652] # Dev Users
-    TOKEN = "57375" # Bot Token from @BotFather
+    TOKEN = "7575301138:AAGxh6m_zmkMVF68WVOwvoEjrDSpyDon2bk" # Bot Token from @BotFather
 
     EVENT_LOGS = -10093 # Event Logs Chat ID
     OWNER_ID = 6040984893 # Owner ID
  
     TEMP_DOWNLOAD_DIRECTORY = "./" # Temporary Download Directory
-    BOT_NAME = "Emilia" # Bot Name
+    BOT_NAME = "IRO WRITER" # Bot Name
     WALL_API = "6950f53" # Wall API from wall.alphacoders.com
     ORIGINAL_EVENT_LOOP = True # Do not Change
 
