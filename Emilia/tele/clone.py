@@ -23,7 +23,7 @@ chat_db = db.chats
 @register(pattern="stats")
 async def stats_(event):
     if not event.sender_id in DEV_USERS:
-        return await event.reply("Only my Arsh can use this command!")
+        return await event.reply("Only my Owner can use this command!")
     users = await db.users.count_documents({})
     chats = await db.chats.count_documents({})
     bots = await clone_db.count_documents({})
@@ -73,22 +73,22 @@ def get_user_list(config, key):
 
 
 class Config(object):
-    API_HASH = "45a20dd93a6d"
-    API_ID = 61
+    API_HASH = "cb5d60ad1402ce922d53bc500abd20df"
+    API_ID = 22169867
 
     BOT_ID = {}
     BOT_USERNAME = "{}"
 
-    MONGO_DB_URL = "mongodb://arsnnection=true&authSource=admin"
+    MONGO_DB_URL = "mongodb+srv://vikashgup87:EDRIe3bdEq85Pdpl@cluster0.pvoygcu.mongodb.net/?retryWrites=true&w=majority"
 
-    SUPPORT_CHAT = "SpiralTechDivision"
-    UPDATE_CHANNEL = "SpiralUpdates"
+    SUPPORT_CHAT = "Ironmanhindigming"
+    UPDATE_CHANNEL = "irotech0"
     START_PIC = "{}"
-    DEV_USERS = [6040984893]
+    DEV_USERS = [7086360370]
     TOKEN = "{}"
 
-    EVENT_LOGS = -100
-    OWNER_ID = 6040984893
+    EVENT_LOGS = -1002471941785
+    OWNER_ID = 7086360370
 
     TEMP_DOWNLOAD_DIRECTORY = "./"
     BOT_NAME = "{}"
